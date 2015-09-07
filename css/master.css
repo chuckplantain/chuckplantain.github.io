@@ -1,0 +1,64 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	width: 100vw;
+	height: 3em;
+	background: linear-gradient(360deg, ivory 0%, ivory 90%, transparent 95%),linear-gradient(90deg, pink, yellowgreen)
+}
+.site-wrap {
+	background-color: ivory;
+	width: 100vw;
+	height: 100vh;
+}
+.gallery {
+}
+.triangle{
+	float: left;
+	background: linear-gradient(9deg, red 0, green 20%, transparent 80%, blue),
+	radial-gradient(circle, pink, orange)2em;
+	width: 20em;
+	height: 20em;
+	background-size: 100% 100%;
+	background-repeat: repeat;
+	background-color: white;
+}
+.eyeball {
+	float: left;
+	width: 20em;
+	height: 20em;
+	background: 
+	radial-gradient(circle at center, black 0, black 10%, transparent 10%),
+	radial-gradient(circle at center,transparent 10%, lightblue 10%,  blue 20%, blue 28%, transparent 28%),
+	linear-gradient(25deg, transparent 40%, red 41%, transparent 41%)0em -2.9em,
+	linear-gradient(340deg, transparent 40%, red 41%, transparent 41%)4em -4em,
+	radial-gradient(circle at center, white 30%, lightblue 38%, white 40%, transparent 40%, transparent 100%);
+	background-repeat: no-repeat;
+}
+.eyelid {
+	width: 20em;
+	height: 20em;
+	background: 	radial-gradient(ellipse at center, transparent, transparent 40%, lightsalmon 40%, beige, pink 100%),
+	linear-gradient(180deg, tan 30%, beige 40%, lightsalmon 40%, transparent 40%),
+	linear-gradient(0deg, beige 30%, tan 36%, lightsalmon 40%, transparent 40%);
+	animation: blink 8s linear 0s	infinite;
+	-webkit-animation: blink 8s linear 0s	infinite;
+}
+@-webkit-keyframes blink {
+	0%, 74%, 76%, 100% {
+		background-position: 0 0, 0 -1em, 0 1em;
+	}
+	75% {
+		background-position: 0 0, 0 2.2em, 0 -2.2em;
+	}
+	@keyframes blink {
+		0%, 74%, 76%, 100% {
+			background-position: 0 0, 0 -1em, 0 1em;
+		}
+		75% {
+			background-position: 0 0, 0 2.2em, 0 -2.2em;
+
+		}
+	}
