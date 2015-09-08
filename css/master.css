@@ -33,28 +33,33 @@ header h2 {
 .gallery {
 	display: flex;
 	justify-content: space-around;
+	flex-direction: column;
 	align-items: flex-start;
 	background: radial-gradient(circle, black, grey);
 }
 .item {
-	width: 20em;
-	height: 20em;
+	padding: 3em 3em;
+	width: 100%;
 }
 .caption {
+	float: right;
+	width: 20em;
+	height: 20em;
 	background: white;
 	text-align: center;
 }
 .triangle{
 	float: left;
-	background: linear-gradient(9deg, red 0, green 20%, transparent 80%, blue),
-	radial-gradient(circle, pink, orange)2em;
 	width: 20em;
 	height: 20em;
+	background: linear-gradient(9deg, red 0, green 20%, transparent 80%, blue),
+	radial-gradient(circle, pink, orange)2em;
 	background-size: 100% 100%;
 	background-repeat: repeat;
 	background-color: white;
 }
 .eyeball {
+	float: left;
 	width: 20em;
 	height: 20em;
 	background: 
