@@ -45,6 +45,13 @@ header h2 {
 	padding: 3em 3em;
 	width: 100%;
 }
+.flower {
+	width: 20em;
+	height: 20em;
+	background: 
+		radial-gradient(ellipse at 50% 1em, purple 10%, blue 20%, transparent 20%)0em -1em,
+		radial-gradient(circle at center, yellow 10%, orange 20%, transparent 30%)0em -1em;
+}
 .rainbow {
 	width: 20em;
 	height: 20em;
