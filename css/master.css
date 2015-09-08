@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -11,6 +12,7 @@ body {
 }
 html{
 	font-family: 'Dancing Script', cursive;
+	font-size: 100%;
 }
 
 header {
@@ -22,16 +24,40 @@ header {
 header h2 {
 	float: left;
 }
+.hide {
+	display: none;
+}
 .audio {
 	background: linear-gradient(360deg, transparent 0%, ivory 15%, ivory 100%),linear-gradient(135deg, yellow, yellowgreen);
 	float: right;
 	font-size: 2em;
 }
+.audio:hover {
+		background: linear-gradient(360deg, transparent 0%, ivory 15%, ivory 100%),linear-gradient(135deg, blue, blanchedalmond);
+}
+.audio:active {
+	color: black;
+			background: linear-gradient(360deg, transparent 0%, ivory 15%, ivory 100%),linear-gradient(135deg, black, darkgray);
+
+}
+.songs {
+	clear: both;
+	float: right;
+}
+.songs li {
+	list-style: none;
+	clear: right;
+}
 .site-wrap {
 	background-color: ivory;
 }
+audio {
+	display: none;
+}
 .gallery {
 	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
 	justify-content: space-around;
 	flex-direction: column;
 	align-items: flex-start;
@@ -42,6 +68,7 @@ header h2 {
 	width: 100%;
 }
 .caption {
+	font-family: 'Istok web', Helvetica;
 	float: right;
 	width: 20em;
 	height: 20em;
@@ -77,7 +104,7 @@ header h2 {
 	linear-gradient(180deg, tan 30%, beige 40%, lightsalmon 40%, transparent 40%),
 	linear-gradient(0deg, beige 30%, tan 36%, lightsalmon 40%, transparent 40%);
 	animation: blink 8s linear 0s	infinite;
-	-webkit-animation: blink 8s linear 0s	infinite;
+	-webkit-animation: blink 7s linear 0s	infinite;
 }
 @-webkit-keyframes blink {
 	0%, 74%, 76%, 100% {
