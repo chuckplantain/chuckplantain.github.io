@@ -27,39 +27,17 @@ header h2 {
 .hide {
 	display: none;
 }
-.audio {
-	background: linear-gradient(360deg, transparent 0%, ivory 15%, ivory 100%),linear-gradient(135deg, yellow, yellowgreen);
-	float: right;
-	font-size: 2em;
-}
-.audio:hover {
-		background: linear-gradient(360deg, transparent 0%, ivory 15%, ivory 100%),linear-gradient(135deg, blue, blanchedalmond);
-}
-.audio:active {
-	color: black;
-			background: linear-gradient(360deg, transparent 0%, ivory 15%, ivory 100%),linear-gradient(135deg, black, darkgray);
-
-}
-.songs {
-	clear: both;
-	float: right;
-}
-.songs li {
-	list-style: none;
-	clear: right;
-}
 .site-wrap {
 	background-color: ivory;
-}
-audio {
-	display: none;
+	min-width: 60em;
 }
 .gallery {
+	margin: 0 0 8em 0;
 	display: flex;
 	display: -webkit-flex;
-	-webkit-flex-direction: column;
+	-webkit-flex-direction: row;
 	justify-content: space-around;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: flex-start;
 	background: radial-gradient(circle, black, grey);
 }
@@ -67,16 +45,32 @@ audio {
 	padding: 3em 3em;
 	width: 100%;
 }
-.caption {
-	font-family: 'Istok web', Helvetica;
-	float: right;
+.rainbow {
 	width: 20em;
 	height: 20em;
-	background: white;
-	text-align: center;
+	background: 		radial-gradient(circle at 50% 50%, white 8%, transparent 10%)5em -6.5em,
+		radial-gradient(circle at 50% 50%, whitesmoke 7%, transparent 10%)4em -6.2em,
+		radial-gradient(circle at 50% 50%, whitesmoke 8%, transparent 10%)6em -6.5em,
+		radial-gradient(circle at 50% 100%, transparent 25%, violet 25%, violet 30%, transparent 31%)0 -4em, 
+		radial-gradient(circle at 50% 100%, transparent 20%, indigo 20%, indigo 25%, transparent 25%)0 -4em, 
+		radial-gradient(circle at 50% 100%, transparent 15%, green 15%, green 20%, transparent 20%)0 -4em, 
+		radial-gradient(circle at 50% 100%, transparent 10%, yellow 10%, yellow 15%, transparent 15%)0 -4em, 
+		radial-gradient(circle at 50% 100%, transparent 5%, orange 5%, orange 10%, transparent 10%)0 -4em, 
+		radial-gradient(circle at 50% 100%, red 10%, transparent 10%)0 -4em, 
+		linear-gradient(360deg, lightgreen 20%, skyblue 20%);
+	
+}
+.yinyang {
+	width: 20em;
+	height: 20em;
+	background: radial-gradient(circle at 50% 28.2%, white 10%, black 10%, black 26%, transparent 25%),
+radial-gradient(circle at 50% 72.5%, black 10%, white 10%, white 26%, transparent 26%),
+radial-gradient(circle at 100% 50%, black 40%, transparent 40%)-10em,
+radial-gradient(circle at 0% 50%, white 40%, transparent 40%)10em;
+	background-color: pink;
+	background-size:100% 100%;
 }
 .triangle{
-	float: left;
 	width: 20em;
 	height: 20em;
 	background: linear-gradient(9deg, red 0, green 20%, transparent 80%, blue),
@@ -86,7 +80,6 @@ audio {
 	background-color: white;
 }
 .eyeball {
-	float: left;
 	width: 20em;
 	height: 20em;
 	background: 
