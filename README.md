@@ -1,6 +1,6 @@
 # CSS Art!
 
-This project, is hosted online [here] (http://www.chuckplantain.github.io).
+This project, is hosted online [here] (http://chuckplantain.github.io).
 
 The project is designed with CSS. All the 'images' were made with CSS Gradients.
 

@@ -24,6 +24,19 @@ header {
 header h2 {
 	float: left;
 }
+header h3 {
+	float: right;
+}
+header a {
+	color: yellowgreen;
+	text-decoration: none;
+}
+header a:hover {
+	color: green;
+}
+header a:active {
+	color:black;
+}
 .hide {
 	display: none;
 }
